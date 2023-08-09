@@ -1,6 +1,6 @@
 import Dependencies._
 
-ThisBuild / organization := "com.example"
+ThisBuild / organization := "$organization;format="lower,package"$"
 ThisBuild / version      := "1.0-SNAPSHOT"
 
 ThisBuild / scalaVersion := "$scala_version$"
